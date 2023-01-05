@@ -2,7 +2,7 @@ import { Main, Title , Convert, Button } from "./style";
 import { useState } from "react";
 import axios from "axios";
 import "./style.css";
-import { Key } from "../../key";
+
 
 
 export const MainDiv = (props)=>{
@@ -25,9 +25,8 @@ export const MainDiv = (props)=>{
 
     const click = async()=>{
         let multiply = 0
-        let key = Key
         try{
-        await axios.get(`https://free.currconv.com/api/v7/convert?q=${fields.originalCurrency}_${fields.toTransfer}&compact=ultra&apiKey=${key}`)
+        await axios.get(`https://free.currconv.com/api/v7/convert?q=${fields.originalCurrency}_${fields.toTransfer}&compact=ultra&apiKey=878f6217e37f3eafdca6`)
             .then(
                 response => {console.log(response)
                     for(let key in response.data){
