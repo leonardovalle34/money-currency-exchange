@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("./img/john-mcarthur-ROQzKIAdY78-unsplash.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
 }
 
 code {

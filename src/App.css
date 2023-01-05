@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 90vw;
+  
 }
 
 .App-logo {
@@ -35,4 +41,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  margin: 5px;
+}
+select{
+  margin: 5px;
 }
