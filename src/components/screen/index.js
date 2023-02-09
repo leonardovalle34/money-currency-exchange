@@ -26,7 +26,7 @@ export const MainDiv = (props)=>{
     const click = async()=>{
         let multiply = 0
         try{
-        await axios.get(`https://free.currconv.com/api/v7/convert?q=${fields.originalCurrency}_${fields.toTransfer}&compact=ultra&apiKey=878f6217e37f3eafdca6`)
+        await axios.get(`https://free.currconv.com/api/v7/convert?q=${fields.originalCurrency}_${fields.toTransfer}&compact=ultra&apiKey=c0d1e679c33dc5f0e70d`)
             .then(
                 response => {console.log(response)
                     for(let key in response.data){
