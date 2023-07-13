@@ -53,7 +53,7 @@ export const MainDiv = (props)=>{
                     <option value="CLP">🇨🇱</option>
                     <option value="PEN">🇵🇪</option>
                     <option value="GBP">🇬🇧</option>
-                    <option value="CHW">🇨🇭</option>
+                    <option value="CHF">🇨🇭</option>
                     <option value="AUD">🇦🇺</option>
                 </select>
             </div>
@@ -72,7 +72,7 @@ export const MainDiv = (props)=>{
                     <option value="CLP">🇨🇱</option>
                     <option value="PEN">🇵🇪</option>
                     <option value="GBP">🇬🇧</option>
-                    <option value="CHW">🇨🇭</option>
+                    <option value="CHF">🇨🇭</option>
                     <option value="AUD">🇦🇺</option>
                 </select>
             </div>
